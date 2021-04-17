@@ -85,8 +85,8 @@ body{
 .bd-container{
     max-width: 968px;
     width:calc(100% - 3rem);
-    margin-left: var(--mb-3);
-    margin-right: var(--mb-3);
+    margin-left: auto;
+    margin-right: auto;
 }
 .bd-grid{
     display: grid;
@@ -171,8 +171,6 @@ body{
     justify-content: center;
     margin-top: var(--header-height);
     padding: 0 var(--mb-3);
-    /* max-width: 989px; */
-    /* width: 100%; */
     
   
 }
@@ -204,8 +202,6 @@ body{
     display: block;
     text-decoration: none;
     text-align: center;
-  
-
     margin-right: auto;
     margin-left: auto;
     color: var(--text-color-atl);
@@ -214,6 +210,34 @@ body{
     margin-top: var(--mb-1);
     
 }
+
+
+/* ==================== Services =================== */
+.services_container{
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+}
+
+.services_icon{
+    font-size: 3rem;
+}
+
+.services_content{
+    box-shadow: 0 2px 4px rgba(73, 73, 73, 0.15);
+    padding: 1rem 2rem; 
+}
+.services_title{
+    font-size: var(--h2-font-size);
+    font-weight: 600;
+}
+.services_description{
+    font-size: var(--normal-font-size);
+   
+}
+
+
+
+
 
 
 
