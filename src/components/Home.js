@@ -12,7 +12,10 @@ export default function Home() {
                     <p className="home_description">
                         Lorem ipsum dolor sit amet <br/>   consectetur adipisicing elit. <br/> amet, quisquam vel libero !
                     </p>
-                    <a href="#" className="order_now">Order Now</a>
+                    <div className='button-wrapper'>
+                         <a href="#" className="button">Order Now</a>
+                    </div>
+                   
                 </div>
 
             </div>

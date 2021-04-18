@@ -5,7 +5,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sofia&display=swap');
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
@@ -177,7 +179,7 @@ body{
 .home_img{
     width: 350px;
 }
-.home_special, .home_title, .home_description, .order_now{
+.home_special, .home_title, .home_description, .button{
     text-align: center;
 }
 .home_special{
@@ -197,19 +199,29 @@ body{
     line-height: 1.4;
     font-size: var(--normal-font-size);
 }
+.button-wrapper{
+    width: 100%;
 
-.order_now{
-    display: block;
+    text-align: center;
+}
+.button{
+    display: inline-block;
     text-decoration: none;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+   padding: 1rem 2.5rem;
+    
     color: var(--text-color-atl);
     background: var(--first-color);
     border-radius: 2rem;
     margin-top: var(--mb-1);
+    transition: all 0.35s ease-in-out;
     
 }
+.button:hover{
+    background-color: var(--first-color-atl);
+}
+
+
 
 
 /* ==================== Services =================== */
@@ -225,6 +237,7 @@ body{
 .services_content{
     box-shadow: 0 2px 4px rgba(73, 73, 73, 0.15);
     padding: 1rem 2rem; 
+    border-radius: .5rem;
 }
 .services_title{
     font-size: var(--h2-font-size);
@@ -232,8 +245,31 @@ body{
 }
 .services_description{
     font-size: var(--normal-font-size);
-   
 }
+
+
+/* =================== Menu ================= */
+.menu_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.menu_title{
+ font-size: var(--biggest-font-size);
+}
+.menu_data{
+    text-align: center;
+}
+.menu_data_img{
+    width: 128px;
+}
+.menu_data_price{
+    color: var(--first-color);
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 
