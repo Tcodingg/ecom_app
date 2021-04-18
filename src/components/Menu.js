@@ -12,7 +12,7 @@ export default function Menu() {
                             <img src={menu.image} className='menu_data_img' alt=""/>
                             <h4 className="menu_data_title ">{menu.title}</h4>
                             <p className="menu_data_price">{menu.price}</p>
-                            {/* <a href='#' className="menu_data_cart">Order</a> */}
+                            <a href='#' className="add_to_cart">Add</a>
                         </div>
                     )
                 })}
