@@ -277,6 +277,35 @@ body{
 
 }
 
+/* ================== footer ================= */
+.footer_container{
+    grid-template-columns: repeat(auto-fit,minmax(128px, 1fr));
+    list-style: none;
+    text-decoration: none;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+.footer_logo{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--first-color);
+    font-weight: 600;
+    font-family: 'Sofia', cursive;
+    font-style: italic;
+}
+
+.social{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-right: var(--mb-2);
+}
+
+footer_link{
+    display: inline-block;
+    margin-bottom: var(--mb-1);
+
+}
+
 
 
 
