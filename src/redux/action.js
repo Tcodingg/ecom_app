@@ -6,3 +6,12 @@ export const ADD_TO_CART = (itemId)=>{
         }
     }
 }
+
+export const REMOVE_FROM_CART = (itemId)=>{
+    return{
+        type: "REMOVE_FROM_CART", 
+        payload:{
+            id: itemId, 
+        }
+    }
+}
