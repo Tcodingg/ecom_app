@@ -27,7 +27,11 @@ export const cartReducer = (state=INITIAL_STATE, action)=>{
                 cart: state.cart.filter((item)=> item.id !==action.payload.id)
             }
         case 'ADJUST_QTY':
-            return state
+            return {
+                ...state,
+                //find the item 
+                cart: state.cart.map((item)=> item.id ===action.payload.id? {...item, qty: +action.payload.qty }: item)
+            }
         case 'LOAD_CURRENT_ITEM':
             return state;
         default:

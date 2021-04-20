@@ -1,25 +1,21 @@
 import React,{useState, useEffect} from 'react'
 import {useSelector, useDispatch} from 'react-redux'
-import {BsTrashFill} from 'react-icons/bs'
-import {REMOVE_FROM_CART} from '../redux/action'
+import CartItem from './CartItem'
 
 export default function Cart() {
 const dispatch = useDispatch();
+const {cart}= useSelector(state => state.cart);
 
- const inCart = useSelector(state => state.cart.cart);
 
 
     return (
-        <section className='bd-container'>
-            {inCart.map((item)=>{
+        <div>
+            {cart.map((item)=>{
                 return(
-                    <div key={item.id}>
-                         <img src={item.image} alt=""/>
-                         <h1>{item.title}</h1>
-                         <button onClick={()=>dispatch(REMOVE_FROM_CART(item.id))}><BsTrashFill /></button>
-                    </div>
+                    <CartItem key={item.id} id={item.id} item = {item} />
+
                 )
             })}
-        </section>
+        </div>
     )
 }

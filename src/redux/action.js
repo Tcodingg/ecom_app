@@ -15,3 +15,12 @@ export const REMOVE_FROM_CART = (itemId)=>{
         }
     }
 }
+export const ADJUST_QTY = (itemId, itemQty)=>{
+    return{
+        type: "ADJUST_QTY", 
+        payload:{
+            id: itemId, 
+            qty: itemQty
+        }
+    }
+}
