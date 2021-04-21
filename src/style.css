@@ -296,7 +296,7 @@ button::-moz-focus-inner {
     font-size: var(--normal-font-size);
 }
 .footer_container{
-    grid-template-columns: repeat(auto-fit,minmax(138px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(158px, 1fr));
     gap: 2rem;
 }
 
@@ -328,6 +328,7 @@ button::-moz-focus-inner {
 .footer_content li{
     list-style: none;
     line-height: 1.8;
+    display: block;
 }
 
 .footer_copy{
@@ -335,8 +336,7 @@ button::-moz-focus-inner {
     text-align: center;
     font-size: var(--small-font-size);
 }
-.adds_icon{
-}
+
 
 
 /* =================Cart ================== */

@@ -1,5 +1,6 @@
 import React from 'react'
 import breakfast from '../images/breakfast.png'
+import {Link} from 'react-router-dom'
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
                         Lorem ipsum dolor sit amet <br/>   consectetur adipisicing elit. <br/> amet, quisquam vel libero !
                     </p>
                     <div className='button-wrapper'>
-                      <a href="#" className="button">Order Now</a>
+                      <Link to='/order'className="button">Order Now</Link>
                     </div>               
                 </div>
             </div>
