@@ -4,6 +4,10 @@ import {RiTwitterFill} from 'react-icons/ri'
 import {RiInstagramFill} from 'react-icons/ri'
 import {useLocation} from 'react-router-dom'
 
+import {ImLocation2} from 'react-icons/im'
+import {MdEmail} from 'react-icons/md'
+import {AiFillPhone} from 'react-icons/ai'
+
 
 export default function Footer() {
 
@@ -37,9 +41,9 @@ export default function Footer() {
                 <div className="footer_content">
                     <h3 className="contact footer_title ">Contact Us</h3>
                     <ul>
-                        <li>908 Main St. Toronto</li>
-                        <li>breakfastclub@mail.com</li>
-                        <li>(647)874-9987</li>
+                        <li><ImLocation2 className='adds_icon' />  908 Main St. Toronto</li>
+                        <li><MdEmail className='adds_icon'/>  bfclub@mail.com</li>
+                        <li> <AiFillPhone className='adds_icon' />  (647)874-9987</li>
                     </ul>
                 </div>
             </div>
