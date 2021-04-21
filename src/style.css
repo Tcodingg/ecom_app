@@ -232,6 +232,7 @@ button::-moz-focus-inner {
 /* ==================== Services =================== */
 .services_container{
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    text-align: center;
 }
 
 .services_icon{
@@ -292,8 +293,16 @@ button::-moz-focus-inner {
 
 /* ================== footer ================= */
 .footer{
-    margin-bottom: var(--mb-6);
-    font-size: var(--normal-font-size);
+font-size: var(--normal-font-size);
+margin-top: var(--mb-6);
+background: #f4f4f4;
+padding: var(--mb-2) var(--mb-6);
+margin-bottom: 0;
+position: absolute;
+width: 100%;
+left: 0;
+
+
 }
 .footer_container{
     grid-template-columns: repeat(auto-fit,minmax(158px, 1fr));
@@ -472,12 +481,19 @@ justify-items: center;
     .add_to_{
         margin-top: var(--mb-3);
     }
-    .footer{
-        margin-top: var(--mb-6);
-background: rgb(206, 206, 206);
-padding: var(--mb-3) var(--mb-6)
-    }
 
+    /* =========Footer========================= */
+    /* .footer{
+        margin-top: var(--mb-6);
+background: #f4f4f4;
+padding: var(--mb-3) var(--mb-6);
+
+margin-bottom: 0;
+position: absolute;
+width: 100%;
+left: 0;
+
+    } */
     /* ============Cart================== */
     .cart_img{
         width: 300px;

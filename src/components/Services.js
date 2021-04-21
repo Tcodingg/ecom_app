@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaCarSide} from 'react-icons/fa'
-import {RiEBike2Fill} from 'react-icons/ri'
+import {RiShoppingBag2Fill} from 'react-icons/ri'
 import {GiCardPickup} from 'react-icons/gi'
 
 
@@ -16,19 +16,19 @@ export default function Services() {
                     Drive-Thru
                 </h2>
                 <p className="services_description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia.
                 </p>
             </div>
 
             <div className="services_content">
                 <div className="services_icon">
-                <RiEBike2Fill />
+                <RiShoppingBag2Fill />
                 </div>
                 <h2 className="services_title">
                     Delivery
                 </h2>
                 <p className="services_description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia.
                 </p>
             </div>
 
@@ -40,7 +40,7 @@ export default function Services() {
                     Take-out
                 </h2>
                 <p className="services_description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia iste.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti quaerat necessitatibus beatae officia.
                 </p>
             </div>
             

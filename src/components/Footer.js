@@ -20,12 +20,12 @@ export default function Footer() {
 
 
     return (
-        <footer style={{display: hideFooter? 'none': 'block'}} className="footer section bd-container">
-            <div className="footer_container bd-grid">
+        <footer style={{display: hideFooter? 'none': 'block'}} className="footer section ">
+            <div className="footer_container bd-container bd-grid">
                 <div className="footer_content">
                     <a href="#" className="footer_logo">Breakfast Club</a>
                     <div>
-                        <a href="/home" className="social"><RiFacebookBoxFill /></a>
+                        <a href="/" className="social"><RiFacebookBoxFill /></a>
                         <a href="/#" className="social"><RiTwitterFill /></a>
                         <a href="/#" className="social"><RiInstagramFill/></a>
                     </div>
