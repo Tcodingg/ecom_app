@@ -9,7 +9,7 @@ export default function Home() {
                 <img className='home_img' src={breakfast} alt=""/>
                 <div className="home_data">
                     <span className="home_special">Now</span>
-                    <h1 className="home_title">$0 Delivery Free</h1>
+                    <h1 className="home_title">$0 Delivery Fee</h1>
                     <p className="home_description">
                         Lorem ipsum dolor sit amet <br/>   consectetur adipisicing elit. <br/> amet, quisquam vel libero !
                     </p>

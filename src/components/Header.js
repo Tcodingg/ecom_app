@@ -19,9 +19,9 @@ export default function Nav() {
         setTotalQty(numQty)
 
         
-    }, [inCart.length, cart])
+    }, [cart])
     
-    // console.log(totalQty)
+
 
  
     return (
@@ -33,10 +33,10 @@ export default function Nav() {
                         <li className="nav_item"><a href="#" className="nav_link">Today's Special</a></li>
                     </ul>
                 </div>
-                <a href="" className="nav_logo">Breakfast Club</a>
+                <Link to='/' className="nav_logo">Breakfast Club</Link>
                 <div  className='cart-wrapper' style={{display:'flex',position: 'relative',alignItems:'center', gap: '0.5rem'}}>
                 <Link style={{zIndex:'2'}}  to='cart'>
-                    <BsBag className='cart' />
+                    <BsBag className='cart_icon' />
                 </Link>
                          <p style={{position:'absolute', fontSize: '10px', left: '9px', zIndex:'1'} } className='number_of_items'>{totalQty}</p>
 
