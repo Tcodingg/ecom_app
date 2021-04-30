@@ -29,9 +29,9 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav_item">
-              <a href="#" className="nav_link">
+              <Link to="/ecom_app/" className="nav_link">
                 Today's Special
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
