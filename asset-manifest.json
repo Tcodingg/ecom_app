@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecom_app/static/css/main.73548e73.chunk.css",
+    "main.css": "/ecom_app/static/css/main.9c6924f4.chunk.css",
     "main.js": "/ecom_app/static/js/main.eebe8eec.chunk.js",
     "main.js.map": "/ecom_app/static/js/main.eebe8eec.chunk.js.map",
     "runtime-main.js": "/ecom_app/static/js/runtime-main.98ae94ca.js",
@@ -8,7 +8,7 @@
     "static/js/2.a36852b4.chunk.js": "/ecom_app/static/js/2.a36852b4.chunk.js",
     "static/js/2.a36852b4.chunk.js.map": "/ecom_app/static/js/2.a36852b4.chunk.js.map",
     "index.html": "/ecom_app/index.html",
-    "static/css/main.73548e73.chunk.css.map": "/ecom_app/static/css/main.73548e73.chunk.css.map",
+    "static/css/main.9c6924f4.chunk.css.map": "/ecom_app/static/css/main.9c6924f4.chunk.css.map",
     "static/js/2.a36852b4.chunk.js.LICENSE.txt": "/ecom_app/static/js/2.a36852b4.chunk.js.LICENSE.txt",
     "static/media/Bacon Breakfast.b2000f69.png": "/ecom_app/static/media/Bacon Breakfast.b2000f69.png",
     "static/media/Bagel BELT.9be775b5.png": "/ecom_app/static/media/Bagel BELT.9be775b5.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.98ae94ca.js",
     "static/js/2.a36852b4.chunk.js",
-    "static/css/main.73548e73.chunk.css",
+    "static/css/main.9c6924f4.chunk.css",
     "static/js/main.eebe8eec.chunk.js"
   ]
 }
