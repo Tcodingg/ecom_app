@@ -164,7 +164,9 @@ button::-moz-focus-inner {
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
-    gap: 1.5rem;
+  }
+  .nav_list a {
+    margin-right: 1.5rem;
   }
 }
 
