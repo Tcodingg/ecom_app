@@ -16,7 +16,7 @@ export default function Cart() {
 
   useEffect(() => {
     // scroll to the top on reload
-    windows.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
     cart.forEach((item) => {
       // counter += (item.price.slice(1)) * parseInt( item.qty).toFixed(2);
