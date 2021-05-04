@@ -18,6 +18,13 @@ export default function Nav() {
     setTotalQty(numQty);
   }, [cart]);
 
+  useEffect(() => {
+    scrollUp();
+  }, []);
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <header className="l-header" id="header">
       <nav className="nav body-container">
@@ -29,13 +36,13 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav_item">
-              <Link to="/ecom_app/" className="nav_link">
+              <Link to="/ecom_app/" className="nav_link" onClick={scrollUp}>
                 Today's Special
               </Link>
             </li>
           </ul>
         </div>
-        <Link to="/ecom_app/" className="nav_logo">
+        <Link to="/ecom_app/" className="nav_logo" onClick={scrollUp}>
           Breakfast Club
         </Link>
         <div
