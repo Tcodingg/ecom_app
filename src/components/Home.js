@@ -1,7 +1,6 @@
 import React from "react";
 import breakfast from "../images/breakfast.png";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
 
 export default function Home() {
   return (

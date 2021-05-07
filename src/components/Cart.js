@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import CartItem from "./CartItem";
 import { RiShoppingCartLine } from "react-icons/ri";
 
@@ -8,9 +8,7 @@ export default function Cart() {
   const [tax, setTax] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.cart);
-  console.log(cart);
 
   let items_price = 0;
   let items_tax = 0;

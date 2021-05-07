@@ -1,7 +1,7 @@
 import React from "react";
 import { menuData } from "./menuData";
 import { ADD_TO_CART } from "../redux/action";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 export default function Menu() {
   const dispatch = useDispatch();

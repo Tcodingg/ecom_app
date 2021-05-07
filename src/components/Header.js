@@ -5,15 +5,12 @@ import "../style.css";
 import { BsBag } from "react-icons/bs";
 
 export default function Nav() {
-  const [numberOfItems, setNumberOfItems] = useState(0);
   const [totalQty, setTotalQty] = useState(0);
-  const inCart = useSelector((state) => state.cart.cart);
   const { cart } = useSelector((state) => state.cart);
 
   let numQty = 0;
 
   useEffect(() => {
-    setNumberOfItems(inCart.length);
     cart.forEach((item) => (numQty += item.qty));
     setTotalQty(numQty);
   }, [cart]);
