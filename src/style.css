@@ -291,8 +291,8 @@ button::-moz-focus-inner {
   background: #f4f4f4;
   padding: var(--mb-2) var(--mb-6);
   margin-bottom: 0;
-  position: absolute;
   width: 100%;
+  position: absolute;
   left: 0;
 }
 .footer_container {
@@ -334,6 +334,9 @@ button::-moz-focus-inner {
 }
 
 /* =================Cart ================== */
+.empty_cart {
+  font-size: 150px;
+}
 .cart_img {
   width: 128px;
 }
@@ -471,6 +474,9 @@ left: 0;
 
     } */
   /* ============Cart================== */
+  .empty_cart {
+    font-size: 300px;
+  }
   .cart_img {
     width: 300px;
   }

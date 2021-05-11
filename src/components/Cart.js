@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import CartItem from "./CartItem";
+import { RiShoppingCartLine } from "react-icons/ri";
 
 export default function Cart() {
   const [price, setPrice] = useState(0);
   const [tax, setTax] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.cart);
 
   let items_price = 0;
@@ -15,9 +15,6 @@ export default function Cart() {
   let total_price = 0;
 
   useEffect(() => {
-    // scroll to the top on reload
-    window.scrollTo(0, 0);
-
     cart.forEach((item) => {
       // counter += (item.price.slice(1)) * parseInt( item.qty).toFixed(2);
 
@@ -30,9 +27,27 @@ export default function Cart() {
     setTotalPrice(total_price.toFixed(2));
   }, [cart, cart.length, cart.qty, price, tax]);
 
+  useEffect(() => {
+    // scroll to the top on reload
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="cart section bd-container">
       <h2 className="section-title">Cart</h2>
+
+      {cart.length <= 0 && (
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <RiShoppingCartLine className="empty_cart" />
+        </div>
+      )}
       <div className="cart_item_container bd-grid">
         {cart.map((item) => {
           return <CartItem key={item.id} id={item.id} item={item} />;

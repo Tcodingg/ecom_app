@@ -1,10 +1,13 @@
-import React from 'react'
-import Menu from './Menu'
+import React, { useEffect } from "react";
+import Menu from "./Menu";
 
 export default function Order() {
-    return (
-        <div>
-            <Menu />
-        </div>
-    )
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div>
+      <Menu />
+    </div>
+  );
 }

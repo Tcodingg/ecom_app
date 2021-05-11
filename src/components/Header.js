@@ -5,18 +5,22 @@ import "../style.css";
 import { BsBag } from "react-icons/bs";
 
 export default function Nav() {
-  const [numberOfItems, setNumberOfItems] = useState(0);
   const [totalQty, setTotalQty] = useState(0);
-  const inCart = useSelector((state) => state.cart.cart);
   const { cart } = useSelector((state) => state.cart);
 
   let numQty = 0;
 
   useEffect(() => {
-    setNumberOfItems(inCart.length);
     cart.forEach((item) => (numQty += item.qty));
     setTotalQty(numQty);
   }, [cart]);
+
+  useEffect(() => {
+    scrollUp();
+  }, []);
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <header className="l-header" id="header">
@@ -29,13 +33,13 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav_item">
-              <Link to="/ecom_app/" className="nav_link">
+              <Link to="/ecom_app/" className="nav_link" onClick={scrollUp}>
                 Today's Special
               </Link>
             </li>
           </ul>
         </div>
-        <Link to="/ecom_app/" className="nav_logo">
+        <Link to="/ecom_app/" className="nav_logo" onClick={scrollUp}>
           Breakfast Club
         </Link>
         <div
