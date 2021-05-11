@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecom_app/static/css/main.3e3fd99d.chunk.css",
-    "main.js": "/ecom_app/static/js/main.aa9667c0.chunk.js",
-    "main.js.map": "/ecom_app/static/js/main.aa9667c0.chunk.js.map",
+    "main.js": "/ecom_app/static/js/main.60fccba1.chunk.js",
+    "main.js.map": "/ecom_app/static/js/main.60fccba1.chunk.js.map",
     "runtime-main.js": "/ecom_app/static/js/runtime-main.98ae94ca.js",
     "runtime-main.js.map": "/ecom_app/static/js/runtime-main.98ae94ca.js.map",
-    "static/js/2.1d4b6e00.chunk.js": "/ecom_app/static/js/2.1d4b6e00.chunk.js",
-    "static/js/2.1d4b6e00.chunk.js.map": "/ecom_app/static/js/2.1d4b6e00.chunk.js.map",
+    "static/js/2.175fb877.chunk.js": "/ecom_app/static/js/2.175fb877.chunk.js",
+    "static/js/2.175fb877.chunk.js.map": "/ecom_app/static/js/2.175fb877.chunk.js.map",
     "index.html": "/ecom_app/index.html",
     "static/css/main.3e3fd99d.chunk.css.map": "/ecom_app/static/css/main.3e3fd99d.chunk.css.map",
-    "static/js/2.1d4b6e00.chunk.js.LICENSE.txt": "/ecom_app/static/js/2.1d4b6e00.chunk.js.LICENSE.txt",
+    "static/js/2.175fb877.chunk.js.LICENSE.txt": "/ecom_app/static/js/2.175fb877.chunk.js.LICENSE.txt",
     "static/media/Bacon Breakfast.16529585.png": "/ecom_app/static/media/Bacon Breakfast.16529585.png",
     "static/media/Bagel BELT.9be775b5.png": "/ecom_app/static/media/Bagel BELT.9be775b5.png",
     "static/media/Egg and Cheese.febd91cc.png": "/ecom_app/static/media/Egg and Cheese.febd91cc.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.98ae94ca.js",
-    "static/js/2.1d4b6e00.chunk.js",
+    "static/js/2.175fb877.chunk.js",
     "static/css/main.3e3fd99d.chunk.css",
-    "static/js/main.aa9667c0.chunk.js"
+    "static/js/main.60fccba1.chunk.js"
   ]
 }
