@@ -5,10 +5,10 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import './style.css';
-import rootReducer from './redux/rooterReducer';
+import { rootReducer } from './redux/rooterReducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-const localStore = createStore(rootReducer, composeWithDevTools);
+const localStore = createStore(rootReducer);
 
 ReactDOM.render(
 	<Router>
